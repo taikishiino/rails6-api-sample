@@ -1,0 +1,73 @@
+---
+- !ruby/object:Blog
+  concise_attributes:
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: id
+    value_before_type_cast: 1
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: title
+    value_before_type_cast: test
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: content
+    value_before_type_cast: testtest
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: created_at
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: updated_at
+  new_record: false
+  active_record_yaml_version: 2
+- !ruby/object:Blog
+  concise_attributes:
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: id
+    value_before_type_cast: 2
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: title
+    value_before_type_cast: タイトル
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: content
+    value_before_type_cast: 文章
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: created_at
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: updated_at
+  new_record: false
+  active_record_yaml_version: 2
+- !ruby/object:Blog
+  concise_attributes:
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: id
+    value_before_type_cast: 3
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: title
+    value_before_type_cast: title(*_*)
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: content
+    value_before_type_cast: text(@_@)
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: created_at
+    value_before_type_cast: 2019-02-25 08:03:20.000000000 Z
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: updated_at
+    value_before_type_cast: 2019-02-25 08:03:20.000000000 Z
+  new_record: false
+  active_record_yaml_version: 2
+- !ruby/object:Blog
+  concise_attributes:
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: id
+    value_before_type_cast: 4
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: title
+    value_before_type_cast: hoge
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: content
+    value_before_type_cast: hogehoge
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: created_at
+    value_before_type_cast: 2019-02-25 08:04:24.000000000 Z
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: updated_at
+    value_before_type_cast: 2019-02-25 08:04:24.000000000 Z
+  new_record: false
+  active_record_yaml_version: 2
