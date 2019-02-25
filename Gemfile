@@ -20,6 +20,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'rspec-rails', '~> 3.8.2'
   gem 'spring-commands-rspec'
+  gem 'shoulda-matchers'
 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
