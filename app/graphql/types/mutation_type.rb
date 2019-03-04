@@ -1,5 +1,6 @@
 module Types
   class MutationType < Types::BaseObject
+    field :createBlogMutation, mutation: Mutations::CreateBlogMutation
     field :updateBlogMutation, mutation: Mutations::UpdateBlogMutation
 
     # TODO: remove me
