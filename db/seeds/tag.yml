@@ -6,44 +6,12 @@
     value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: name
-    value_before_type_cast: blog
+    value_before_type_cast: tag_sample
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
-    value_before_type_cast: 2019-02-25 09:21:10.000000000 Z
+    value_before_type_cast: 2019-03-15 14:47:47.000000000 Z
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: updated_at
-    value_before_type_cast: 2019-02-25 09:21:10.000000000 Z
-  new_record: false
-  active_record_yaml_version: 2
-- !ruby/object:Tag
-  concise_attributes:
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: id
-    value_before_type_cast: 2
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: name
-    value_before_type_cast: RubyOnRails
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: created_at
-    value_before_type_cast: 2019-02-25 09:21:53.000000000 Z
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: updated_at
-    value_before_type_cast: 2019-02-25 09:21:53.000000000 Z
-  new_record: false
-  active_record_yaml_version: 2
-- !ruby/object:Tag
-  concise_attributes:
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: id
-    value_before_type_cast: 3
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: name
-    value_before_type_cast: Ruby
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: created_at
-    value_before_type_cast: 2019-02-25 09:22:05.000000000 Z
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: updated_at
-    value_before_type_cast: 2019-02-25 09:22:05.000000000 Z
+    value_before_type_cast: 2019-03-15 14:47:47.000000000 Z
   new_record: false
   active_record_yaml_version: 2

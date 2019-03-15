@@ -1,0 +1,23 @@
+---
+- !ruby/object:Article
+  concise_attributes:
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: id
+    value_before_type_cast: 1
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: title
+    value_before_type_cast: title
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: text
+    value_before_type_cast: h1,h2,h3,h4,h5
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: like_count
+    value_before_type_cast: 0
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: created_at
+    value_before_type_cast: 2019-03-15 14:32:52.000000000 Z
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: updated_at
+    value_before_type_cast: 2019-03-15 14:32:52.000000000 Z
+  new_record: false
+  active_record_yaml_version: 2
