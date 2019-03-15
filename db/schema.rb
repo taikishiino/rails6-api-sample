@@ -10,20 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_25_073429) do
+ActiveRecord::Schema.define(version: 2019_03_15_094030) do
 
-  create_table "blog_tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.bigint "blog_id"
+  create_table "article_tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.bigint "article_id"
     t.bigint "tag_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["blog_id"], name: "index_blog_tags_on_blog_id"
-    t.index ["tag_id"], name: "index_blog_tags_on_tag_id"
+    t.index ["article_id"], name: "index_article_tags_on_article_id"
+    t.index ["tag_id"], name: "index_article_tags_on_tag_id"
   end
 
-  create_table "blogs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "articles", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "title", default: "title", null: false
-    t.string "content", default: "content", null: false
+    t.string "text", default: "text", null: false
+    t.integer "like_count", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -34,6 +35,6 @@ ActiveRecord::Schema.define(version: 2019_02_25_073429) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "blog_tags", "blogs"
-  add_foreign_key "blog_tags", "tags"
+  add_foreign_key "article_tags", "articles"
+  add_foreign_key "article_tags", "tags"
 end
