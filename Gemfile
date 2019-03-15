@@ -8,18 +8,19 @@ gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
 gem 'devise', '~> 4.6.1'
 gem 'graphql', '~> 1.9.2'
+# CORS設定
+gem 'rack-cors'
 
 # gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'mini_magick', '~> 4.8'
-
-# Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.8.2'
   gem 'spring-commands-rspec'
+  gem 'factory_girl_rails'
   gem 'shoulda-matchers'
 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
