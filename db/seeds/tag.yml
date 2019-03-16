@@ -6,12 +6,44 @@
     value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: name
-    value_before_type_cast: tag_sample
+    value_before_type_cast: tag1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
     value_before_type_cast: 2019-03-15 14:47:47.000000000 Z
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: updated_at
     value_before_type_cast: 2019-03-15 14:47:47.000000000 Z
+  new_record: false
+  active_record_yaml_version: 2
+- !ruby/object:Tag
+  concise_attributes:
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: id
+    value_before_type_cast: 2
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: name
+    value_before_type_cast: tag2
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: created_at
+    value_before_type_cast: 2019-03-15 14:47:48.000000000 Z
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: updated_at
+    value_before_type_cast: 2019-03-15 14:47:49.000000000 Z
+  new_record: false
+  active_record_yaml_version: 2
+- !ruby/object:Tag
+  concise_attributes:
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: id
+    value_before_type_cast: 3
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: name
+    value_before_type_cast: tag3
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: created_at
+    value_before_type_cast: 2019-03-15 14:47:49.000000000 Z
+  - !ruby/object:ActiveModel::Attribute::FromDatabase
+    name: updated_at
+    value_before_type_cast: 2019-03-15 14:47:49.000000000 Z
   new_record: false
   active_record_yaml_version: 2

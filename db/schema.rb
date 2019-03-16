@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 2019_03_15_094030) do
 
   create_table "article_tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.bigint "article_id"
-    t.bigint "tag_id"
+    t.bigint "article_id", null: false
+    t.bigint "tag_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["article_id"], name: "index_article_tags_on_article_id"
@@ -22,8 +22,8 @@ ActiveRecord::Schema.define(version: 2019_03_15_094030) do
   end
 
   create_table "articles", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "title", default: "title", null: false
-    t.string "text", default: "text", null: false
+    t.string "title", null: false
+    t.string "text", null: false
     t.integer "like_count", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

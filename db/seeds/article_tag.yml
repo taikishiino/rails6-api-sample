@@ -1,67 +1,58 @@
 ---
-- !ruby/object:Article
+- !ruby/object:ArticleTag
   concise_attributes:
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: id
     value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: title
-    value_before_type_cast: title1
+    name: article_id
+    value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: text
-    value_before_type_cast: h1,h2,h3,h4,h5
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: like_count
-    value_before_type_cast: 0
+    name: tag_id
+    value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
-    value_before_type_cast: 2019-03-15 14:32:52.000000000 Z
+    value_before_type_cast: 2019-03-16 04:06:46.000000000 Z
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: updated_at
-    value_before_type_cast: 2019-03-15 14:32:52.000000000 Z
+    value_before_type_cast: 2019-03-16 04:06:46.000000000 Z
   new_record: false
   active_record_yaml_version: 2
-- !ruby/object:Article
+- !ruby/object:ArticleTag
   concise_attributes:
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: id
     value_before_type_cast: 2
   - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: title
-    value_before_type_cast: title2
+    name: article_id
+    value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: text
-    value_before_type_cast: h1,h2,h3,h4,h5
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: like_count
-    value_before_type_cast: 0
+    name: tag_id
+    value_before_type_cast: 2
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
-    value_before_type_cast: 2019-03-15 14:32:53.000000000 Z
+    value_before_type_cast: 2019-03-16 04:07:04.000000000 Z
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: updated_at
-    value_before_type_cast: 2019-03-15 14:32:53.000000000 Z
+    value_before_type_cast: 2019-03-16 04:07:04.000000000 Z
   new_record: false
   active_record_yaml_version: 2
-- !ruby/object:Article
+- !ruby/object:ArticleTag
   concise_attributes:
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: id
     value_before_type_cast: 3
   - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: title
-    value_before_type_cast: title3
+    name: article_id
+    value_before_type_cast: 2
   - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: text
-    value_before_type_cast: h1,h2,h3,h4,h5
-  - !ruby/object:ActiveModel::Attribute::FromDatabase
-    name: like_count
-    value_before_type_cast: 0
+    name: tag_id
+    value_before_type_cast: 3
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
-    value_before_type_cast: 2019-03-15 14:32:54.000000000 Z
+    value_before_type_cast: 2019-03-16 04:07:05.000000000 Z
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: updated_at
-    value_before_type_cast: 2019-03-15 14:32:54.000000000 Z
+    value_before_type_cast: 2019-03-16 04:07:05.000000000 Z
   new_record: false
   active_record_yaml_version: 2
