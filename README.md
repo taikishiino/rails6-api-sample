@@ -1,24 +1,14 @@
-# README
+# kapiTech-API
+railsのAPIモードを使用
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* ruby 2.5.1
 
-Things you may want to cover:
+* rails 5.2.2
 
-* Ruby version
+* graphql 1.9.2
 
-* System dependencies
+* rspec-rails 3.8.2
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## テストツール (graphiql)
+    $ rails s
+http://localhost:3000/graphiql
