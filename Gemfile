@@ -8,8 +8,7 @@ gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
 gem 'devise', '~> 4.6.1'
 gem 'graphql', '~> 1.9.2'
-# CORS設定
-gem 'rack-cors'
+gem 'rack-cors' # CORS設定
 
 # gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
@@ -22,6 +21,7 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'factory_bot_rails'
   gem 'shoulda-matchers'
+  gem 'rspec-graphql_matchers'  #testing support gem for GraphQL
 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end

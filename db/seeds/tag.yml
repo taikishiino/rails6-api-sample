@@ -6,7 +6,7 @@
     value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: name
-    value_before_type_cast: tag1
+    value_before_type_cast: たぐ1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
     value_before_type_cast: 2019-03-15 14:47:47.000000000 Z
@@ -22,7 +22,7 @@
     value_before_type_cast: 2
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: name
-    value_before_type_cast: tag2
+    value_before_type_cast: たぐ2
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
     value_before_type_cast: 2019-03-15 14:47:48.000000000 Z
@@ -38,7 +38,7 @@
     value_before_type_cast: 3
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: name
-    value_before_type_cast: tag3
+    value_before_type_cast: たぐ3
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: created_at
     value_before_type_cast: 2019-03-15 14:47:49.000000000 Z

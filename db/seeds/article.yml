@@ -6,10 +6,10 @@
     value_before_type_cast: 1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: title
-    value_before_type_cast: title1
+    value_before_type_cast: たいとる1
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: text
-    value_before_type_cast: h1,h2,h3,h4,h5
+    value_before_type_cast: <h1>えいちわんたぐ</h1>
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: like_count
     value_before_type_cast: 0
@@ -28,10 +28,10 @@
     value_before_type_cast: 2
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: title
-    value_before_type_cast: title2
+    value_before_type_cast: たいとる2
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: text
-    value_before_type_cast: h1,h2,h3,h4,h5
+    value_before_type_cast: <h2>えいちつーたぐ</h2>
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: like_count
     value_before_type_cast: 0
@@ -50,10 +50,10 @@
     value_before_type_cast: 3
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: title
-    value_before_type_cast: title3
+    value_before_type_cast: たいとる3
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: text
-    value_before_type_cast: h1,h2,h3,h4,h5
+    value_before_type_cast: <p>ぴーたぐ</p>
   - !ruby/object:ActiveModel::Attribute::FromDatabase
     name: like_count
     value_before_type_cast: 0
