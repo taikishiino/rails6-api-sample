@@ -8,8 +8,5 @@ module Types
     field :updated_at, GraphQL::Types::ISO8601DateTime, null: false, camelize: false
 
     field :tags, [Types::TagType], null: false
-
-    # method
-    # field :blog_count, String, null: true, camelize: false, method: :blog_count
   end
 end

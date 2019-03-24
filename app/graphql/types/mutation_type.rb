@@ -1,12 +1,11 @@
 module Types
   class MutationType < Types::BaseObject
-    #--------------------------
-    # Article
-    #--------------------------
+    #------------------------------------
+    #  Article
+    #------------------------------------
     field :create_article, ArticleType, null: false, camelize: false, description: 'Create an article' do
       argument :title, String, required: true
       argument :text, String, required: true
-      argument :like_count, Int, required: false
     end
     def create_article(title:, text:)
       Article.create!(title: title, text: text)
@@ -16,8 +15,9 @@ module Types
       argument :id, ID, required: true
       argument :title, String, required: true
       argument :text, String, required: true
+      argument :like_count, Int, required: false
     end
-    def update_article(id:, title:, text:)
+    def update_article(id:, title:, text:, like_count:)
       article = Article.find_by!(id: id)
       article.title = title
       article.text = text

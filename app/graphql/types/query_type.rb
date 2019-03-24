@@ -6,7 +6,9 @@ module Types
       "現在時刻は#{context[:time]}です！"
     end
 
-    # Article
+    #------------------------------------
+    #  Article
+    #------------------------------------
     field :articles, [Types::ArticleType], null: false, description: 'returns all articles'
     def articles
       Article.all
