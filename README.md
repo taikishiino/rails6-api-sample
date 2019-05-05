@@ -9,6 +9,11 @@ railsのAPIモードを使用
 
 * rspec-rails 3.8.2
 
-## テストツール (graphiql)
+## 実行環境 (graphiql)
     $ rails s
 http://localhost:3000/graphiql
+
+## デプロイ
+Elastic Beanstalk
+
+TODO: CrircleCIで自動化
