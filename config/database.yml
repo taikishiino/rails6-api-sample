@@ -2,19 +2,25 @@
 default: &default
   adapter: mysql2
   encoding: utf8
-  username: root
-  password:
   pool: 5
-  socket: /tmp/mysql.sock
+  #socket: /tmp/mysql.sock
 
 development:
   <<: *default
   database: kapiTech-api_development
+  username: root
+  password:
 
 test:
   <<: *default
   database: kapiTech-api_test
+  username: root
+  password:
 
 production:
   <<: *default
   database: kapiTech-api_production
+  username: <%= ENV['RDS_USERNAME'] %>
+  password: <%= ENV['RDS_PASSWORD'] %>
+  host: <%= ENV['RDS_HOSTNAME'] %>
+  port: <%= ENV['RDS_PORT'] %>
