@@ -20,7 +20,10 @@ test:
 production:
   <<: *default
   database: kapiTech_api_production
-  username: <%= ENV['RDS_USERNAME'] %>
-  password: <%= ENV['RDS_PASSWORD'] %>
-  host: <%= ENV['RDS_HOSTNAME'] %>
-  port: <%= ENV['RDS_PORT'] %>
+  username: taiki
+  password: taikiaws
+  socket: /var/lib/mysql/mysql.sock
+  #username: <%= ENV['RDS_USERNAME'] %>
+  #password: <%= ENV['RDS_PASSWORD'] %>
+  #host: <%= ENV['RDS_HOSTNAME'] %>
+  #port: <%= ENV['RDS_PORT'] %>
