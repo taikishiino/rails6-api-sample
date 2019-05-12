@@ -19,7 +19,7 @@ test:
 
 production:
   <<: *default
-  database: kapiTech-api_production
+  database: kapiTech_api_production
   username: <%= ENV['RDS_USERNAME'] %>
   password: <%= ENV['RDS_PASSWORD'] %>
   host: <%= ENV['RDS_HOSTNAME'] %>
