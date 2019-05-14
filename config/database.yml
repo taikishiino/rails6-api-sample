@@ -1,4 +1,4 @@
-# MySQL. Versions 5.7
+# MySQL. Versions 5.6
 default: &default
   adapter: mysql2
   encoding: utf8
@@ -20,8 +20,8 @@ test:
 production:
   <<: *default
   database: kapiTech_api_production
-  username: taiki
-  password: taikiaws
+  username: admin
+  password: buena926
   socket: /var/lib/mysql/mysql.sock
   #username: <%= ENV['RDS_USERNAME'] %>
   #password: <%= ENV['RDS_PASSWORD'] %>
