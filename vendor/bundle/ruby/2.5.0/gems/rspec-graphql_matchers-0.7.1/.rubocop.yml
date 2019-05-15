@@ -1,0 +1,40 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/SpaceBeforeFirstArg:
+  Include:
+    - db/migrate/*.rb
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 80
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/rspec/*.rb
+
+Metrics/ModuleLength:
+  Exclude:
+    - spec/rspec/*.rb
