@@ -22,8 +22,8 @@ production:
   username: admin
   password: buena926
   socket: /var/lib/mysql/mysql.sock
-  #host: kapi-tech-mysql.cmrxvnzyzbv4.ap-northeast-1.rds.amazonaws.com
-  #port: 3306
+  host: kapi-tech-mysql.cmrxvnzyzbv4.ap-northeast-1.rds.amazonaws.com
+  port: 3306
   #username: <%= ENV['RDS_USERNAME'] %>
   #password: <%= ENV['RDS_PASSWORD'] %>
   #host: <%= ENV['RDS_HOSTNAME'] %>
