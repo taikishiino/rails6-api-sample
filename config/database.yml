@@ -8,13 +8,13 @@ development:
   <<: *default
   database: kapiTech-api_development
   username: root
-  password:
+  password: root
 
 test:
   <<: *default
   database: kapiTech-api_test
   username: root
-  password:
+  password: root
 
 production:
   <<: *default
