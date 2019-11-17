@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2019_03_15_094030) do
 
-  create_table "article_tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "article_tags", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
     t.bigint "article_id", null: false
     t.bigint "tag_id", null: false
     t.datetime "created_at", null: false
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2019_03_15_094030) do
     t.index ["tag_id"], name: "index_article_tags_on_tag_id"
   end
 
-  create_table "articles", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "articles", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
     t.string "title", null: false
     t.string "text", null: false
     t.integer "like_count", default: 0, null: false
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2019_03_15_094030) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+  create_table "tags", options: "ENGINE=InnoDB DEFAULT CHARSET=latin1", force: :cascade do |t|
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
