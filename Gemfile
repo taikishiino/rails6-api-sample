@@ -1,17 +1,18 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.1'
+ruby '2.6.5'
 
 gem 'rails', '~> 5.2.2'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
 gem 'devise', '~> 4.6.1'
 gem 'graphql', '~> 1.9.2'
-gem 'rack-cors' # CORS設定
+gem 'rack-cors'           # CORS設定
+gem 'dotenv-rails'        # 環境変数
 
 # gem 'redis', '~> 4.0'
-# gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '~> 3.1.7'   
 # gem 'mini_magick', '~> 4.8'
 # gem 'capistrano-rails', group: :development
 gem 'bootsnap', '>= 1.1.0', require: false
