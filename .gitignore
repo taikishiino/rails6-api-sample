@@ -22,6 +22,9 @@
 # database
 /config/database.yml
 
+# terraform
+terraform/*
+terraform/.terraform
 
 
 
