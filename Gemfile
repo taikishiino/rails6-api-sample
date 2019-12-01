@@ -6,7 +6,7 @@ ruby '2.6.5'
 gem 'rails', '~> 5.2.2'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'puma', '~> 3.11'
-gem 'devise', '~> 4.6.1'
+gem 'devise', '~> 4.7.1'
 gem 'graphql', '~> 1.9.2'
 gem 'rack-cors'           # CORS設定
 gem 'dotenv-rails'        # 環境変数
