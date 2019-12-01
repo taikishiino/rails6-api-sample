@@ -22,7 +22,10 @@
 # database
 /config/database.yml
 
-
+# terraform
+terraform/.terraform
+terraform/terraform.tfvars
+terraform/terraform.tfstate.d/*
 
 
 
